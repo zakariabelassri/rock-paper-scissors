@@ -1,4 +1,4 @@
-# Rock Paper Scissors
+# Rock Paper Scissors (Console Version)
 
 Welcome to the **Rock Paper Scissors** game, a project developed as part of [The Odin Project](https://www.theodinproject.com/) curriculum. This simple yet classic game is built using HTML, CSS, and JavaScript. Players can play against the computer in this interactive browser-based version of the game.
 
