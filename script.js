@@ -1,20 +1,16 @@
-// computer random choice
 function getComputerChoice() {
   let choices = ["rock", "paper", "scissors"];
   return choices[Math.floor(Math.random() * choices.length)];
 }
 
-// human choice
 function getHumanChoice() {
   let choice = prompt("Choose rock, paper or scissors:");
   return choice;
 }
 
-// scores init
 let humanScore = 0;
 let computerScore = 0;
 
-// play one round
 function playRound(humanChoice, computerChoice) {
   console.log(`You choose: ${humanChoice}`);
   console.log(`Computer choose: ${computerChoice}`);
@@ -36,7 +32,6 @@ function playRound(humanChoice, computerChoice) {
   console.log(`Your score: ${humanScore}, Computer score: ${computerScore}`);
 }
 
-//play fine rounds
 function playGame() {
   for (let i = 0; i < 5; i++) {
     const humanChoice = getHumanChoice();
